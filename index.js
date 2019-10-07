@@ -1,5 +1,5 @@
 // Add your functions here
 
-function map() {
+function map(arr, fn) {
   
 }
