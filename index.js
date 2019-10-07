@@ -15,7 +15,7 @@ function reduce(arr, fn, init) {
     result = arr[0];
     i = 1;
   }
-  for (let i = 0; i < arr.length; i++) {
+  for (; i < arr.length; i++) {
     result = fn(arr[i], result);
   }
   return result;
