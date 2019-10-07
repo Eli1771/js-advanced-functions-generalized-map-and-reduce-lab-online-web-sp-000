@@ -20,5 +20,6 @@ function reduce(arr, fn, init) {
   for (; i < arr.length; i++) {
     result = fn(arr[i], result);
   }
+  
   return result;
 }
