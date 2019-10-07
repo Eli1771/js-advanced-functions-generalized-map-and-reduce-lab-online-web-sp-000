@@ -8,7 +8,7 @@ function map(arr, fn) {
   return result;
 }
 
-function reduce(arr, init=0, fn) {
+function reduce(arr, fn, init=0) {
   let result = init;
   for (let i = 0; i < arr.length; i++) {
     result += arr[i];
