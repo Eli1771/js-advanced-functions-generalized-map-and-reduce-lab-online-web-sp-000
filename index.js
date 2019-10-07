@@ -12,7 +12,7 @@ function reduce(arr, fn, init) {
   let result = init;
   let i = 0;
   
-  if(!(!!init)) {
+  if(!init) {
     result = arr[0];
     i = 1;
   }
