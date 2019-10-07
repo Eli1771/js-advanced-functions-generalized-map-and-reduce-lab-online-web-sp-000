@@ -8,6 +8,6 @@ function map(arr, fn) {
   return result;
 }
 
-function reduce() {
+function reduce(arr, init=0) {
   
 }
