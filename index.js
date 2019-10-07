@@ -11,7 +11,7 @@ function map(arr, fn) {
 function reduce(arr, fn, init) {
   let result = init;
   let i = 0;
-  if (!!init) {
+  if (!init) {
     let result = 
   }
   for (let i = 0; i < arr.length; i++) {
