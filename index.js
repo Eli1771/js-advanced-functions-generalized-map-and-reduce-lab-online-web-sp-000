@@ -7,3 +7,7 @@ function map(arr, fn) {
   }
   return result;
 }
+
+function reduce() {
+  
+}
