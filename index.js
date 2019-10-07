@@ -8,8 +8,8 @@ function map(arr, fn) {
   return result;
 }
 
-function reduce(arr, fn, init=0) {
-  let result = init;
+function reduce(arr, fn, init) {
+  let result = !!init ? init : arr[0];
   for (let i = 0; i < arr.length; i++) {
     result = fn(result, arr[i]);
   }
